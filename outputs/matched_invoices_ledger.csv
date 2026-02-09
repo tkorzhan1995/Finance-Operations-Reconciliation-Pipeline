@@ -1,0 +1,4 @@
+invoice_id,order_id,customer_id,customer_name,invoice_date,invoice_amount,ledger_entry_count,posted_amount,amount_diff,first_posting_date,last_posting_date,days_to_post,account_numbers,entry_ids,recon_status,reconciliation_run_date
+INV-2001,ORD-1001,CUST-501,Acme Corporation,2026-01-16,1500.00,1,1500.00,0.00,2026-01-17,2026-01-17,1,"4000-1000",LE-5001,MATCHED,2026-02-09 10:00:00
+INV-2002,ORD-1002,CUST-502,Global Industries,2026-01-22,2750.50,2,2750.50,0.00,2026-01-23,2026-01-23,1,"4000-1000, 2200-3000","LE-5002, LE-5003",MATCHED,2026-02-09 10:00:00
+INV-2003,ORD-1003,CUST-503,TechStart Inc,2026-01-25,890.25,3,890.25,0.00,2026-01-26,2026-01-26,1,"4000-1000, 2200-3000, 5000-1500","LE-5004, LE-5005, LE-5006",MATCHED,2026-02-09 10:00:00
