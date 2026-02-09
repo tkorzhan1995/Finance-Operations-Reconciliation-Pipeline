@@ -1,0 +1,8 @@
+record_type,record_id,related_id,customer_id,customer_name,record_date,exception_reason,expected_amount,actual_amount,amount_diff,amount_diff_pct,priority,notes,additional_details,reconciliation_run_date
+ORDER,ORD-100,,CUST-200,Widget Company,2026-02-01,NO_INVOICE,1200.00,0.00,1200.00,100.00,1,Missing invoice for order,Date difference: N/A,2026-02-09 10:15:00
+ORDER,ORD-101,INV-101,CUST-201,Parts Depot,2026-02-03,AMOUNT_DIFF,850.00,900.00,-50.00,5.88,1,Amount mismatch: $-50.0,Date difference: 2 days,2026-02-09 10:15:00
+ORDER,ORD-102,INV-102,CUST-202,Service Corp,2026-01-25,TIMING_DIFF,500.00,500.00,0.00,0.00,3,Timing difference: 8 days,Date difference: 8 days,2026-02-09 10:15:00
+INVOICE,INV-200,ORD-200,CUST-300,Manufacturing Ltd,2026-02-05,UNPOSTED_INVOICE,3500.00,0.00,3500.00,100.00,1,Invoice not posted to ledger,Ledger entries: 0 Days to post: N/A,2026-02-09 10:15:00
+INVOICE,INV-201,ORD-201,CUST-301,Retail Store,2026-02-04,DUPLICATE_POSTING,1000.00,1100.00,-100.00,10.00,1,Duplicate posting detected: ledger amount $1100.0 exceeds invoice $1000.0,Ledger entries: 4 Days to post: 1,2026-02-09 10:15:00
+INVOICE,INV-202,ORD-202,CUST-302,Distribution Inc,2026-02-06,PARTIAL_POSTING,2000.00,1500.00,500.00,25.00,2,Partial posting: $500.0 still pending,Ledger entries: 2 Days to post: 1,2026-02-09 10:15:00
+INVOICE,INV-203,ORD-203,CUST-303,Logistics Co,2026-02-07,UNDER_POSTED,750.00,700.00,50.00,6.67,2,Under-posted: ledger amount $700.0 is less than invoice $750.0,Ledger entries: 1 Days to post: 0,2026-02-09 10:15:00
