@@ -1,0 +1,4 @@
+order_id,invoice_id,customer_id,customer_name,order_date,invoice_date,order_amount,invoice_amount,amount_diff,date_diff_days,recon_status,reconciliation_run_date
+ORD-001,INV-001,CUST-123,Acme Corporation,2026-02-01,2026-02-03,1500.00,1500.00,0.00,2,MATCHED,2026-02-09 10:15:00
+ORD-002,INV-002,CUST-456,Global Industries,2026-02-05,2026-02-07,2750.50,2750.50,0.00,2,MATCHED,2026-02-09 10:15:00
+ORD-003,INV-003,CUST-789,Tech Solutions Inc,2026-02-06,2026-02-06,950.00,950.00,0.00,0,MATCHED,2026-02-09 10:15:00
